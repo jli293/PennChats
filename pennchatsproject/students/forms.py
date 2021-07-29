@@ -110,7 +110,7 @@ class WeeklySignUpForm(FlaskForm):
     week_meet_list = [x.week_meet_name for x in WeekMeet.query.all()]
     week_meet_tuples = [(x, x) for x in week_meet_list]
     week_meet = SelectField(
-        'Which week you would like to meet for PennChats? (Please do not submit more than one form for the same week)',
+        'Which week you would like to meet for Penn Chats? (Please do not submit more than one form for the same week)',
         validators=[DataRequired()],
         choices=week_meet_tuples,
     )
@@ -147,4 +147,4 @@ class WeeklySignUpForm(FlaskForm):
     )
 
     # Submit
-    submit = SubmitField('Sign Up for PennChats')
+    submit = SubmitField('Sign Up for Penn Chats')
