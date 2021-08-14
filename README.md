@@ -44,7 +44,7 @@ Main entities of the database include:
 Penn Chats is developed using Python and the Flask web framework, with ProsgreSQL as the back-end database solution. 
 
 ## The Algorithm
-The design principle of the algorithm:
+The design principles of the algorithm:
 1. Set the number of students per meeting to 2-5 people
 2. Prioritize primary time preference & networking goal
 3. Handle unmatched students separately
