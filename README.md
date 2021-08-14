@@ -1,4 +1,4 @@
-# PennChats
+# Penn Chats
 Penn Chats is a project inspired by LunchClub (https://lunchclub.com/), a platform that facilitates online social networking,
 created for the student community of MCIT Online, an online master's program offered at the University of Pennsylvania.
 The project aims to provide an easy way for the student community, where members are spread across different geographies, to form connections amongst one another.
